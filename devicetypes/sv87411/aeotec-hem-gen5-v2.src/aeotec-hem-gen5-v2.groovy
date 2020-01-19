@@ -54,7 +54,7 @@ metadata {
 			} 
 		}
 		valueTile("power", "device.power", decoration: "flat", width: 2, height: 2) {
-			state "power", label:'${currentValue}\nW', unit: "W", icon:"https://raw.githubusercontent.com/sv87411/SmartThingsPublic/master/devicetypes/aeotec/home2-icn%402x.png", backgroundColors:[
+			state "power", label:'${currentValue}\nW', unit: "W", icon:"https://raw.githubusercontent.com/sv87411/SmartThingsPublic/master/devicetypes/sv87411/home2-icn%402x.png", backgroundColors:[
 				[value: 0, color: "#44b621"],
 				[value: 2000, color: "#f1d801"],
 				[value: 4000, color: "#d04e00"],
