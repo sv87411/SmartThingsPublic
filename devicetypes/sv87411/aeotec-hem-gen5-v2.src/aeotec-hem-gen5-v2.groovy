@@ -71,16 +71,16 @@ metadata {
 		}*/
 		
         valueTile("energy", "device.energy", decoration: "flat", width: 2, height: 2) {
-			state "energy", label:'${currentValue}\n kWh ', unit: "kWh"
+			state "energy", label:'${currentValue}\n kWh ', unit: "kWh", icon:"https://raw.githubusercontent.com/sv87411/SmartThingsPublic/master/devicetypes/sv87411/homeenergy.png"
 		}
         valueTile("energy", "device.energy", decoration: "flat", width: 2, height: 2) {
 			state "energy", label:'${currentValue}\n kWh ', unit: "kWh"
 		}
 		valueTile("voltage", "device.voltage", decoration: "flat", width: 2, height: 2) {
-			state "voltage", label:'${currentValue}\n V ', unit: "V"
+			state "voltage", label:'${currentValue}\n V ', unit: "V", icon:"https://raw.githubusercontent.com/sv87411/SmartThingsPublic/master/devicetypes/sv87411/volts.png"
 		}
 		valueTile("current", "device.current", decoration: "flat", width: 2, height: 2) {
-			state "current", label:'${currentValue}\n A ', unit: "A"
+			state "current", label:'${currentValue}\n A ', unit: "A", icon:"https://raw.githubusercontent.com/sv87411/SmartThingsPublic/master/devicetypes/sv87411/current.png"
 		}
 		standardTile("reset", "device.reset", decoration: "flat", width: 2, height: 2) {
 			state "default", label:'Reset kWh', action:"reset", icon: "https://raw.githubusercontent.com/sv87411/SmartThingsPublic/master/devicetypes/sv87411/kids4.png"
