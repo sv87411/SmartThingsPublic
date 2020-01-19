@@ -12,9 +12,10 @@
  *  on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License
  *  for the specific language governing permissions and limitations under the License.
  *
+ *  Updates added by Stuart Vickers 2019
  */
 metadata {
-	definition (name: "Aeotec HEM Gen5 Child Device", namespace: "ClassicGOD", author: "Artur Draga") {
+	definition (name: "Aeotec HEM Gen5 Child Device", namespace: "sv87411", author: "Stuart Vickers") {
 		capability "Energy Meter"
 		capability "Power Meter"
 		capability "Voltage Measurement"
