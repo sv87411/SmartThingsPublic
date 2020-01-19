@@ -16,7 +16,7 @@
  * Updates to icons by Stuart Vickers 2019
  */
 metadata {
-	definition (name: "Aeotec HEM Gen5", namespace: "ClassicGOD", author: "Artur Draga") {
+	definition (name: "Aeotec HEM Gen5", namespace: "sv87411", author: "Stuart Vickers") {
 		capability "Energy Meter"
 		capability "Power Meter"
 		capability "Voltage Measurement"
