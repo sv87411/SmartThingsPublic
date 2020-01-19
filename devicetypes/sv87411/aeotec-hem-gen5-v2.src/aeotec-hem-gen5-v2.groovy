@@ -83,7 +83,7 @@ metadata {
 			state "current", label:'${currentValue}\n A ', unit: "A"
 		}
 		standardTile("reset", "device.reset", decoration: "flat", width: 2, height: 2) {
-			state "default", label:'Reset kWh', action:"reset", icon: "st.Kids.kids4"
+			state "default", label:'Reset kWh', action:"reset", icon: "https://raw.githubusercontent.com/sv87411/SmartThings-Icons/master/images/kids4.png"
 		}
 		standardTile("refresh", "device.refresh", inactiveLabel: false, decoration: "flat", width: 2, height: 2) {
 			state "default", label:'', action:"refresh.refresh", icon: "https://raw.githubusercontent.com/sv87411/SmartThings-Icons/master/images/refresh.png"
